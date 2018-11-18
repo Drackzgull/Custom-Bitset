@@ -37,7 +37,8 @@ namespace Dkz
  /* Abstract definition meant to be used directly in the code this file is
   * included from, it acts as an interface that implements the optimal Bitset_t
   * definition based on desired size. */
-	template<size_t N>
+
+template<size_t N>
 class Bitset
 {
 	static_assert(N > 0, "Bitset size must be greater than 0");
