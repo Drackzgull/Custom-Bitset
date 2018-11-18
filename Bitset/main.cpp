@@ -14,7 +14,7 @@
 using namespace std;
 
 /*
- * Bitset class template metaprogramming optimization tests successful
+ * Tests
  */
 int main(int argc, char** argv)
 {
